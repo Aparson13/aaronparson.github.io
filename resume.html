@@ -8,19 +8,23 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.5;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 28px;
+      margin-bottom: 10px;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 24px;
       margin-bottom: 5px;
     }
 
     h3 {
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: 5px;
     }
 
@@ -30,13 +34,21 @@
 
     ul {
       list-style-type: none;
-      padding-left: 0;
+      padding-left: 20px;
       margin-bottom: 10px;
     }
 
     ul li::before {
       content: "•";
       margin-right: 5px;
+      color: #555;
+    }
+
+    .section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -50,37 +62,36 @@
        <li><a href='blog.html'>Blog</a></li>
      </ul>
    </nav>
-  <h1>Aaron S. Parson</h1>
-  <p>(804) 937-4769 • aparson1700@gmail.com • LinkedIn: <a href="https://www.linkedin.com/in/aaron-parson">aaron-parson</a> • GitHub: <a href="https://github.com/Aparson13">Aparson13</a></p>
+  <div class="section">
+    <h1>Aaron S. Parson</h1>
+    <p>(804) 937-4769 • aparson1700@gmail.com • LinkedIn: <a href="https://www.linkedin.com/in/aaron-parson">aaron-parson</a> • GitHub: <a href="https://github.com/Aparson13">Aparson13</a></p>
+  </div>
 
-  <h2>EDUCATION</h2>
-  <p>University of Virginia, School of Engineering, Charlottesville, VA</p>
-  <ul>
-    <li>B.S in Computer Science, Applied Mathematics minor</li>
-    <li>GPA: 3.46</li>
-    <li>Major GPA: 3.79</li>
-    <li>UVA Data Justice Scholar</li>
+  <div class="section">
+    <h2>EDUCATION</h2>
+    <p>University of Virginia, School of Engineering, Charlottesville, VA</p>
     <ul>
-      <li>Gained experience in Data Visualization with Tableau, Statistical Analysis with R, Machine Learning, Neural Networks, and Databases</li>
+      <li>B.S in Computer Science, Applied Mathematics minor</li>
+      <li>GPA: 3.46</li>
+      <li>Major GPA: 3.79</li>
+      <li>UVA Data Justice Scholar</li>
+      <ul>
+        <li>Gained experience in Data Visualization with Tableau, Statistical Analysis with R, Machine Learning, Neural Networks, and Databases</li>
+      </ul>
+      <li>Relevant coursework: Data Structures and Algorithms, Math of Information, Multivariable Calculus, Physics, Chemistry, Theory of Computation, Advanced Software Development, Probability, Statistics, Linear Algebra, Public Speaking, Machine Learning</li>
     </ul>
-    <li>Relevant coursework: Data Structures and Algorithms, Math of Information, Multivariable Calculus, Physics, Chemistry, Theory of Computation, Advanced Software Development, Probability, Statistics, Linear Algebra, Public Speaking, Machine Learning</li>
-  </ul>
 
-  <p>University of Richmond, UR Cybersecurity Boot Camp program, Richmond, VA</p>
-  <ul>
-    <li>24-week intensive course covering the fundamental aspects of cybersecurity</li>
-    <li>Relevant coursework: network design, risk management, operational security, network administration, cyber threat analysis, vulnerability analysis</li>
-  </ul>
+    <p>University of Richmond, UR Cybersecurity Boot Camp program, Richmond, VA</p>
+    <ul>
+      <li>24-week intensive course covering the fundamental aspects of cybersecurity</li>
+      <li>Relevant coursework: network design, risk management, operational security, network administration, cyber threat analysis, vulnerability analysis</li>
+    </ul>
+  </div>
 
-  <h2>PROFESSIONAL EXPERIENCE</h2>
+  <div class="section">
+    <h2>PROFESSIONAL EXPERIENCE</h2>
 
-  <h3>Effectv (Comcast), Data Science Intern</h3>
-  <ul>
-    <li>Given a machine-learning model and a defined list of localized areas of interest, worked to reliably increase performance on local areas with minimal impact to global performance using various data augmentation techniques and data analysis</li>
-    <li>Investigated ways to encode categorical features into meaningful numeric arrays with respect to demographics or view patterns to provide a centralized source of categorical features that is readily available to input into Machine learning models for training and scoring</li>
-  </ul>
-
-  <h3>UVA Computer Science Department, Machine Learning Researcher</h3>
-  <ul>
-    <li>Conducted literature review on the Multi-Arm Bandit problem and algorithm solutions as well as static code analysis of the FedML platform</li>
-    <li>Independently integrated Multi-Arm Bandit simulation code into FedML
+    <h3>Effectv (Comcast), Data Science Intern</h3>
+    <ul>
+      <li>Given a machine-learning model and a defined list of localized areas of interest, worked to reliably increase performance on local areas with minimal impact to global performance using various data augmentation techniques and data analysis</li>
+      <li>Investigated ways to encode categorical
