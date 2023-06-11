@@ -8,6 +8,12 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
