@@ -3,10 +3,10 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Inter', sans-serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .center {
@@ -16,7 +16,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 80px;
 }
 a {
     text-decoration: none;
