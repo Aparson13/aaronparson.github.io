@@ -17,8 +17,8 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     font-family:'Inter', sans-serif;
     display: inline;
-    margin-left: 20px;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
