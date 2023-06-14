@@ -1,4 +1,8 @@
 body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5; 
+    padding: 0px;
+    background-color: #f4f4f4;
     margin: 60px auto;
     width: 70%;
 }
@@ -20,25 +24,47 @@ nav ul li, footer ul li {
     margin-left: 0px;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Inter', sans-serif;
+    margin-bottom: 10px;
 }
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+ul {
+      list-style-type: none;
+      padding-left: 20px;
+      margin-bottom: 10px;
 }
 
 ul.posts { 
@@ -49,3 +75,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+ }
